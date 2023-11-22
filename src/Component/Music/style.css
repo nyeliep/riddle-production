@@ -1,0 +1,356 @@
+/* release */
+.release-container {
+    background-color: #000;
+    text-align: center;
+    padding: 50px;
+    height: 100vh;
+}
+
+.release-header {
+    margin-bottom: 30px;
+}
+
+.production-text {
+    font-size: 14px;
+    color: #777;
+   
+}
+
+.last-release-title {
+    font-size: 36px;
+    font-weight: bold;
+    
+}
+
+.release-content {
+    display: flex;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+}
+
+.left-col {
+    flex: 1;
+    text-align: left;
+}
+
+.release-title {
+    font-size: 4rem;
+    margin-bottom: 10px;
+    color: #777;
+}
+
+.artist-name {
+    font-size: 4rem;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.listen-link {
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    font-size: 2.5rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.listen-link:hover {
+    background-color: #333;
+    
+}
+
+.song-details {
+    margin-top: 30px;
+}
+
+.song-details h4 {
+    margin-bottom: 10px;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.song-details .artist-name {
+    font-size: 2rem;
+    color: #777;
+}
+
+.right-col {
+    flex: 1;
+    text-align: right;
+}
+
+.release-video {
+    width: 100%;
+    max-width: 400px;
+}
+
+
+
+/* artists */
+
+.artist-container {
+    background-color: #f9f9f9;
+    padding: 50px;
+    text-align: center;
+    /* height: 100vh; */
+}
+
+.artist-header {
+    margin-bottom: 30px;
+}
+
+.production-text {
+    font-size: 14px;
+    color: #777;
+}
+
+.last-release-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+}
+
+.artist-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.left-col {
+    flex: 1;
+    text-align: left;
+    padding: 20px;
+}
+
+.artist-img {
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.artist-title {
+    font-size: 24px;
+    margin-top: 10px;
+    color: #333;
+}
+
+.song-details {
+    margin-top: 20px;
+    color: #777;
+}
+
+.right-col {
+    flex: 1;
+    text-align: left;
+    padding: 20px;
+}
+
+.more-artists-link {
+    display: inline-block;
+    /* background-color: #000; */
+    color: #000;
+    border: solid 1px black;
+    width: 20vw;
+    height: 6vh;
+    padding: 30px 20px 30px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.more-artists-link:hover {
+    background-color: #333;
+}
+
+/* demo drop */
+
+.demo-container {
+    background-image: url('/public/media/recording.webp'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px 0;
+    height: 100vh;
+    text-align: center;
+    position: relative;
+    color: #fff;
+}
+
+.demo-content {
+    padding: 20px;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.demo-link {
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.demo-link:hover {
+    background-color: #333;
+}
+
+.demo-text {
+    font-size: 16px;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+
+/* music */
+.music-container{
+    background-image: url('/public/media/concert.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+}
+.production-text{
+ font-size: large;
+}
+.music-tittle{
+
+}
+.title{
+
+}
+.performance{
+    border: solid 1px;
+    width: 30vw;
+    /* float: right; */
+    margin-left:65% ;
+    margin-top: 20%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.concerts{
+    border: solid 1px;
+    width: 20vw;
+    height: 50px;
+    padding-top: 20px;
+    /* float: right; */
+    margin-left:70% ;
+    margin-top: 3%;
+    background-color: rgba(0, 0, 0, 0.5);  
+}
+.concerts a{
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+
+/* follow */
+
+.follow-us-container {
+    color: #000;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.follow-us-header {
+    margin-bottom: 20px;
+}
+
+.follow-us-title {
+    margin-top: 0;
+}
+
+.follow-links-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.follow-links-row {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.fol-left-col,
+.fol-right-col {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+/* Footer */
+.footer-container {
+    background-color: #000;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-around;
+    margin: 0 20% ;
+}
+.link-container {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end; /* Move the container to the right side */
+    padding: 20px;
+    
+}
+
+.navlinks a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    line-height: 50px;
+    display: block;
+}
+.footer-content-block  p{
+    width: 600px;
+}
+.info-link{
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    
+}
+.info-link a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    line-height: 50px;
+    display: block;
+}
+.footer-logo h1{
+    font-size: 34px;
+}
+.circle {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-left: 5px;
+}
